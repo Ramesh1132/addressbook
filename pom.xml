@@ -19,6 +19,14 @@
         <thucydides.version>0.9.268</thucydides.version>
         <jelastic.context>addressbook</jelastic.context>
     </properties>
+	<dependencies>
+        <dependency>
+            <groupId>com.edurekademo.tutorial</groupId>
+            <artifactId>addressbook</artifactId>
+            <version>1.0-SNAPSHOT</version>
+		<scope>compile</scope>
+        </dependency>
+		</dependencies>
 
     <scm>
         <connection>scm:git:git@github.com:${github.account}/addressbook.git</connection>
